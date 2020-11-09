@@ -1,0 +1,120 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/42/361/189/anime-cardfight-vanguard-aichi-sendou-wallpaper-preview.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 1370px auto;
+	font-family: sans-serif;
+}
+.container
+{
+	width: 1280px;
+    background: rgba(0,0,0,0.1);
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .box{
+	position: relative;
+	width: 300px;
+	height: 438px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.14);
+}
+
+.container .box .ImBox{
+	position: relative;
+	/*overflow: hidden;*/
+}
+.container .box .ImBox img{
+    max-width: 100%;
+    max-height: auto;
+    transition :transform 1s;
+}
+.container .box:hover .ImBox img{
+    transform: scale(0.9);
+}
+.container .box .details{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background-color: rgba(0,0,0,0.2);
+	transform: scaleY(0);
+	transform: transform .5s;
+}
+.container .box:hover .details{
+	
+	transform: scaleY(1);
+	
+}
+.container .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.2);
+}
+.container .box .details .content{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+.header {
+	padding-bottom: 50px;
+    padding: 20px;
+}
+.header1 {
+    width: 50%;
+    float: left;
+}  
+@keyframes animate{
+	0%,100%{
+		color: #1E90FF;
+		filter: blur(2px);
+	}
+	10%,90%{
+		color: #030347;
+		filter: blur(0px);
+	}
+	20%,80%{
+		color: #00008B;
+		filter: blur(0px);
+	}
+
+}
+h2{ 
+  
+    text-align: center; 
+    font-size: 60px; 
+    font-family: 'century gothic'; 
+    color: #ffffcc; 
+    text-shadow: 0 0 5px yellow, 
+                 0 0 10px yellow,
+                 0 0 20px yellow,  
+                 0 0 30px yellow,  
+                 0 0 40px yellow,  
+                 0 0 55px blue,  
+                 0 0 70px blue, 
+                 0 0 80px yellow, 
+                 0 0 90px yellow, 
+                 0 0 100px yellow, 
+                 0 0 110px yellow; 
+} 
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p { 
+	margin-top: -10px; 
+}
